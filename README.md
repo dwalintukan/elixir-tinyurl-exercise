@@ -12,8 +12,8 @@ The TinyURL service will take in a URL and will return a shortened version of th
 - When users access a short link, our service should redirect them to the original link.
 - Users should optionally be able to pick a custom short link for their URL.
 - Links will expire after a standard default timespan. Users should be able to specify the expiration time.
-- Users can sign in and see all their created shortened URLs
-- It is not required to have an account to create a shortened URL
+- Registered users can sign in and see all their created short links.
+- It is not required to have an account to create a short link.
 
 ## Non-Functional Requirements
 
