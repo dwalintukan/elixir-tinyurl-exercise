@@ -20,9 +20,11 @@ defmodule TinyUrlWeb.Router do
   end
 
   # Other scopes may use custom stacks.
-  # scope "/api", TinyUrlWeb do
-  #   pipe_through :api
-  # end
+  scope "/api", TinyUrlWeb do
+    pipe_through :api
+
+    # TODO: implement API route
+  end
 
   # Enables LiveDashboard only for development
   #
