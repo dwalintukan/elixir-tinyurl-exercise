@@ -2,7 +2,7 @@
 
 How would you design a service like TinyURL?
 
-## What is TinyURL?
+## What is TinyURL
 
 The TinyURL service will take in a URL and will return a shortened version of the URL so when the user navigates to the shortened URL in the browser, it will redirect to the original URL.
 
@@ -31,3 +31,12 @@ The TinyURL service will take in a URL and will return a shortened version of th
 6. Requests
 7. Availability
 8. APIs
+
+## Implementation Details
+
+1. Implement the business logic in **service.ex**
+2. Implement storing of URLs in **cache.ex**
+3. Implement the APIs and redirection in **page_controller.ex**
+4. Implement the routes in **router.ex**
+5. Implement the JSON response in **page_view.ex**
+6. Tests (if time allows)
