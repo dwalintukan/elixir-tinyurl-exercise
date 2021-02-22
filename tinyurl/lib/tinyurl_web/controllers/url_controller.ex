@@ -7,6 +7,6 @@ defmodule TinyUrlWeb.UrlController do
   end
 
   # TODO: implement API to redirect tiny url to original url
-  def redirect(conn, _params) do
+  def redirect_to(conn, _params) do
   end
 end

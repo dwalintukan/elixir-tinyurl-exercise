@@ -22,7 +22,7 @@ defmodule TinyUrlWeb.Router do
     pipe_through :api
 
     post "/generate", UrlController, :generate
-    get "/redirect", UrlController, :redirect
+    get "/redirect_to", UrlController, :redirect_to
   end
 
   # Enables LiveDashboard only for development
