@@ -35,8 +35,7 @@ The TinyURL service will take in a URL and will return a shortened version of th
 ## Implementation Details
 
 1. Implement the business logic in **service.ex**
-2. Implement storing of URLs in **cache.ex**
-3. Implement the APIs and redirection in **page_controller.ex**
-4. Implement the routes in **router.ex**
-5. Implement the JSON response in **page_view.ex**
-6. Tests (if time allows)
+2. Implement the APIs in **url_controller.ex**
+3. Implement the JSON response in **url_view.ex**
+4. Implement storing of URLs in **cache.ex**
+5. Tests (if time allows)

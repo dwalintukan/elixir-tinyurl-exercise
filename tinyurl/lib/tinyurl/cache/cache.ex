@@ -10,11 +10,9 @@ defmodule TinyUrl.Cache.CacheStore do
 
   # TODO: Implement cache setter
   def set() do
-
   end
 
   # TODO: Implement cache
   def get() do
-
   end
 end

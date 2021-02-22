@@ -15,15 +15,14 @@ defmodule TinyUrlWeb.Router do
 
   scope "/", TinyUrlWeb do
     pipe_through :browser
-
-    get "/", PageController, :index
   end
 
   # Other scopes may use custom stacks.
   scope "/api", TinyUrlWeb do
     pipe_through :api
 
-    # TODO: implement API route
+    post "/generate", UrlController, :generate
+    get "/url/redirect", UrlController, :redirect
   end
 
   # Enables LiveDashboard only for development
