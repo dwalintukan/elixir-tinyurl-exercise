@@ -6,8 +6,28 @@ How would you design a service like TinyURL?
 
 1. Elixir 1.13
 2. Erlang/OTP 24
-3. Some IDE
-4. You!
+3. Postgres
+4. Some IDE
+5. You!
+
+### Install Homebrew
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+### Install Elixir
+
+```bash
+brew install asdf
+asdf install elixir 1.13
+```
+
+### Install Postgres
+
+```bash
+brew install postgres
+```
 
 ## What is TinyURL
 
