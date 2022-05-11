@@ -1,18 +1,23 @@
 defmodule TinyUrl.Cache.CacheStore do
   @moduledoc """
-  Reference:
-  https://elixirschool.com/en/lessons/specifics/ets/
+
+  Suggestion:
+  ETS: https://elixirschool.com/en/lessons/specifics/ets/
+
+  Questions:
+  1. What other caches could you use?
+  2. And why?
+  3. Any other considerations?
   """
 
   def init() do
-    :ets.new(:urls, [:set, :public])
   end
 
   # TODO: Implement cache setter
   def set() do
   end
 
-  # TODO: Implement cache
+  # TODO: Implement cache getter
   def get() do
   end
 end
