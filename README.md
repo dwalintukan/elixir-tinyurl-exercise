@@ -2,6 +2,13 @@
 
 How would you design a service like TinyURL?
 
+## Development Requirements
+
+1. Elixir 1.13
+2. Erlang/OTP 24
+3. Some IDE
+4. You!
+
 ## What is TinyURL
 
 The TinyURL service will take in a URL and will return a shortened version of the URL so when the user navigates to the shortened URL in the browser, it will redirect to the original URL.
