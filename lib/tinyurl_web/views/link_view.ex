@@ -1,4 +1,4 @@
-defmodule TinyUrlWeb.UrlView do
+defmodule TinyUrlWeb.LinkView do
   @moduledoc """
   Explain and code the necessary Views for the Tiny URL service.
 

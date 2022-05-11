@@ -1,4 +1,4 @@
-defmodule TinyUrlWeb.UrlController do
+defmodule TinyUrlWeb.LinkController do
   @moduledoc """
   Explain and code the necessary APIs for the Tiny URL service.
 

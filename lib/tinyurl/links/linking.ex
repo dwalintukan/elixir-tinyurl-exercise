@@ -1,4 +1,4 @@
-defmodule TinyUrl.Service do
+defmodule TinyUrl.Links.Linking do
   @moduledoc """
   Explain and code the necessary Context business logic for the Tiny URL service.
 

@@ -1,4 +1,4 @@
-defmodule TinyUrl.Cache.CacheStore do
+defmodule TinyUrl.Caching.Cache do
   @moduledoc """
   Suggestion:
   ETS: https://elixirschool.com/en/lessons/specifics/ets/

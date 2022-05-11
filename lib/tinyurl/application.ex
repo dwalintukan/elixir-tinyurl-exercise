@@ -8,7 +8,7 @@ defmodule TinyUrl.Application do
   def start(_type, _args) do
     children = [
       # Start the Ecto repository
-      # TinyUrl.Repo,
+      TinyUrl.Repo,
       # Start the Telemetry supervisor
       TinyUrlWeb.Telemetry,
       # Start the PubSub system

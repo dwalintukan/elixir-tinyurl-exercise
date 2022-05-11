@@ -32,10 +32,10 @@ The TinyURL service will take in a URL and will return a shortened version of th
 ## Implementation Details
 
 1. Implement storing of URLs in `cache.ex`
-2. Implement the context business logic in `service.ex`
-3. Implement the APIs in `url_controller.ex`
-4. Implement the JSON response in `url_view.ex`
-5. Tests (if time allows)
+2. Implement the context business logic in `linking.ex`
+3. Implement the APIs in `link_controller.ex`
+4. Implement the JSON response in `link_view.ex`
+5. Implement tests (if time allows)
 
 ## Topics To Discuss
 
