@@ -21,8 +21,7 @@ defmodule TinyUrlWeb.Router do
   scope "/api", TinyUrlWeb do
     pipe_through :api
 
-    post "/generate", UrlController, :generate
-    get "/redirect_to", UrlController, :redirect_to
+    # TODO: Implement routes here
   end
 
   # Enables LiveDashboard only for development

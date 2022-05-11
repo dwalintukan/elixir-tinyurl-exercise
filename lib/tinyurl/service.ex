@@ -1,12 +1,15 @@
 defmodule TinyUrl.Service do
-  # TODO: Implement short link response.
-  def generate_short_link() do
-  end
+  @moduledoc """
+  Explain and code the necessary Context business logic for the Tiny URL service.
 
-  # TODO: Implement ability to fetch original link.
-  def fetch_original_link() do
-  end
+  Notes:
+  1. How do you get a short_link?
+  2. What do you do with a short_link?
+  """
 
-  # Not a real hashing solution! Just temporary for this exercise.
+  # TODO: Implement context functions here
+
+  # You may use this as a temporary hashing solution for this exercise.
+  # Not a real/good hashing solution!
   defp encode_original_link(link), do: :crypto.hash(:sha256, link) |> Base.encode16()
 end

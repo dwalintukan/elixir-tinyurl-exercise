@@ -1,12 +1,14 @@
 defmodule TinyUrlWeb.UrlController do
+  @moduledoc """
+  Explain and code the necessary APIs for the Tiny URL service.
+
+  Notes:
+  1. How do we generate a short_link?
+  2. What do we do with a passed in short_link?
+  """
+
   use TinyUrlWeb, :controller
 
-  # TODO: implement API to create tiny url
-  def generate(conn, _params) do
-    render(conn, "generate.json")
-  end
+  # TODO: Implement APIs here
 
-  # TODO: implement API to redirect tiny url to original url
-  def redirect_to(conn, _params) do
-  end
 end

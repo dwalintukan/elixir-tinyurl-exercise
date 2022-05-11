@@ -1,8 +1,13 @@
 defmodule TinyUrlWeb.UrlView do
+  @moduledoc """
+  Explain and code the necessary Views for the Tiny URL service.
+
+  Notes:
+  1. What do we need to return after creating a short_link?
+  """
+
   use TinyUrlWeb, :view
 
-  # TODO: implement response for creating a tiny url
-  def render("generate.json", %{conn: conn}) do
-    %{}
-  end
+  # TODO: Implement views here
+
 end
