@@ -2,13 +2,14 @@
 
 How would you design a service like TinyURL?
 
-## Development Requirements
+## Setup
+
+### Requirements
 
 1. Elixir 1.13
 2. Erlang/OTP 24
 3. Postgres
 4. Some IDE
-5. You!
 
 ### Install Homebrew
 
