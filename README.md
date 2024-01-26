@@ -6,10 +6,10 @@ How would you design a service like TinyURL?
 
 ### Requirements
 
-1. Elixir 1.13
-2. Erlang/OTP 24
+1. Elixir 1.15
+2. Erlang/OTP 25
 3. Postgres
-4. Some IDE
+4. IDE of your choice
 
 ### Install Homebrew
 
@@ -21,7 +21,7 @@ How would you design a service like TinyURL?
 
 ```bash
 brew install asdf
-asdf install elixir 1.13
+asdf install elixir 1.15
 ```
 
 ### Install Postgres
